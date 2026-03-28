@@ -6,6 +6,8 @@ Script purpose:
   - on the server side: SET GLOBAL local_infile = 1;
   - on the client side: Edit Connection - tab Advanced - in "Others" insert: OPT_LOCAL_INFILE=1
 
+  We can reload every time the data in the database: first we truncate the table (delete the content) and the insert the new content.
+
 ===================================================
 
 truncate table stage.crm_cust_info;
