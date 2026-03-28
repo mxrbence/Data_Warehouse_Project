@@ -1,6 +1,8 @@
 ===================================================
 Script purpose:
 
+  Create Data Warehouse structure with layers: stage, standardize (standardization, cleansing, etc.), data_marts
+  Create tables in the schema "stage" acc. to input data.
 
 ===================================================
 
