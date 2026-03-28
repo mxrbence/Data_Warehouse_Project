@@ -4,8 +4,6 @@ Script purpose:
 
 ===================================================
 
-
-
-create schema bronze;
-create schema silver;
-create schema gold;
+create schema stage;
+create schema standardize;
+create schema data_marts;
